@@ -1,0 +1,14 @@
+POST http://localhost:3333/customer
+
+Content-type: application/json
+
+{
+    "name": "José",
+    "email": "jose@teste.com"
+}
+
+###
+GET http://localhost:3333/customers
+
+###
+DELETE http://localhost:3333/customer?id=66040cbe5b91ee75a437413d
